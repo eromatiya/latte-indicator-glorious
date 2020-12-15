@@ -45,6 +45,7 @@ LatteComponents.IndicatorItem {
 
 					readonly property color backgroundColor: root.colorStyle === 0 ?
 						indicator.palette.textColor : indicator.iconGlowColor
+					readonly property color borderColor: backgroundColor
 
 					Item {
 						id: rectangleItem
@@ -62,7 +63,7 @@ LatteComponents.IndicatorItem {
 								(indicator.isWindow && indicator.hasShown) ||
 								(indicator.isMinimized && indicator.configuration.colorsForMinimized) ||
 								(!indicator.isLauncher && indicator.configuration.colorsForSquareApplets && 
-									indicator.configuration.enabledForApplets)
+									indicator.configuration.enabledForApplets && !indicator.isTask)
 
 							radius: indicator.currentIconSize / 6
 							color: layerItem.backgroundColor
@@ -78,6 +79,20 @@ LatteComponents.IndicatorItem {
 								// 30% of configuration.opacity
 								return indicator.configuration.opacity * 0.3;
 							}
+						}
+
+						Rectangle {
+							id: borderRect
+							anchors.fill: parent
+							visible: indicator.isTask && indicator.hasMinimized &&
+								indicator.configuration.bordersForMinimized
+
+							radius: indicator.currentIconSize / 6
+							color: "transparent"
+							clip: true
+							opacity: indicator.configuration.opacity * 0.85;
+							border.width: 1
+							border.color: borderColor
 						}
 					}
 				}
