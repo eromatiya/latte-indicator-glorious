@@ -1,6 +1,6 @@
 # Latte Glorious Indicator
 
-A glorious indicator theme for [Latte Dock](https://github.com/KDE/latte-dock)  
+A glorious indicator theme for [Latte Dock](https://github.com/KDE/latte-dock).
 
 <p align="center">
 	<img alt="Glorious Latte Indicator" src="scrots/plain.webp"/>
@@ -37,3 +37,7 @@ A glorious indicator theme for [Latte Dock](https://github.com/KDE/latte-dock)
 1. Just `cd` to the cloned repo.
 2. Execute ```$ kpackagetool5 -i . -t Latte/Indicator```.
 3. Set the indicator theme to `Glorious`.
+
+## Credits
+
+This indicator theme is heavily inspired by [latte-indicatory-unity](https://github.com/psifidotos/latte-indicator-unity) theme by [psifidotos](https://github.com/psifidotos).
