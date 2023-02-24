@@ -19,10 +19,6 @@
 			<label>Show background for minimized windows</label>
 			<default>false</default>
 		</entry>
-		<entry name="bordersForMinimized" type="Bool">
-			<label>Show borders for minimized windows</label>
-			<default>true</default>
-		</entry>
 		<entry name="colorsForSquareApplets" type="Bool">
 			<label>show background for square applets</label>
 			<default>false</default>

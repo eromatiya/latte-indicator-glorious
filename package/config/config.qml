@@ -158,17 +158,6 @@ ColumnLayout {
 
 			LatteComponents.CheckBox {
 				Layout.maximumWidth: dialog.optionsWidth
-				text: i18n("Show borders for minimized windows")
-				checked: indicator.configuration.bordersForMinimized
-				visible: indicator.latteTasksArePresent
-
-				onClicked: {
-					indicator.configuration.bordersForMinimized = !indicator.configuration.bordersForMinimized;
-				}
-			}
-
-			LatteComponents.CheckBox {
-				Layout.maximumWidth: dialog.optionsWidth
 				text: i18n("Show for all square applets")
 				checked: indicator.configuration.colorsForSquareApplets
 				visible: indicator.configuration.enabledForApplets

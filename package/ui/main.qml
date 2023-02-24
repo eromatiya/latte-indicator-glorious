@@ -84,8 +84,7 @@ LatteComponents.IndicatorItem {
 						Rectangle {
 							id: borderRect
 							anchors.fill: parent
-							visible: indicator.isTask && indicator.hasMinimized &&
-								indicator.configuration.bordersForMinimized
+							visible: indicator.isTask && indicator.hasMinimized
 
 							radius: indicator.currentIconSize / 6
 							color: "transparent"
