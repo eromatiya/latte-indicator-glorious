@@ -3,18 +3,10 @@
 A glorious indicator theme for [Latte Dock](https://github.com/KDE/latte-dock).
 
 <p align="center">
-	<img alt="Glorious Latte Indicator" src="scrots/plain.webp"/>
+	<img alt="Glorious Latte Indicator" src="scrots/showcase.webp"/>
 	<br/>
 	<i>
 		Simple color style with default indicator settings
-	</i>
-</p>
-
-<p align="center">
-	<img alt="Glorious Latte Indicator" src="scrots/colorful.webp"/>
-	<br/>
-	<i>
-		Colorful color style with modified indicator settings
 	</i>
 </p>
 
@@ -23,6 +15,22 @@ A glorious indicator theme for [Latte Dock](https://github.com/KDE/latte-dock).
 	<br/>
 	<i>
 		Indicator settings
+	</i>
+</p>
+
+<p align="center">
+	<img alt="Glorious Latte Indicator" src="scrots/dock.webp"/>
+	<br/>
+	<i>
+		Dock Mode
+	</i>
+</p>
+
+<p align="center">
+	<img alt="Glorious Latte Indicator" src="scrots/panel.webp"/>
+	<br/>
+	<i>
+		Panel Mode
 	</i>
 </p>
 

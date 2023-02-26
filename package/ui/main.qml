@@ -63,7 +63,7 @@ LatteComponents.IndicatorItem {
 								(indicator.isWindow && indicator.hasShown) ||
 								(indicator.isMinimized && indicator.configuration.colorsForMinimized) ||
 								(!indicator.isLauncher && indicator.configuration.colorsForSquareApplets && 
-									indicator.configuration.enabledForApplets && !indicator.isTask)
+									indicator.configuration.enabledForApplets && !indicator.isTask && indicator.isApplet)
 
 							radius: indicator.currentIconSize / 6
 							color: layerItem.backgroundColor
